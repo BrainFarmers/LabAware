@@ -116,8 +116,6 @@
     <None Include="..\..\..\.gitignore" />
     <None Include="..\..\..\CONTRIBUTING.md" />
     <None Include="..\..\..\FEATURES.md" />
-    <None Include="..\..\..\lib\MechanicalBrain\.gitignore" />
-    <None Include="..\..\..\lib\MechanicalBrain\README.md" />
     <None Include="..\..\..\LICENSE" />
     <None Include="..\..\..\README.md" />
     <None Include="ClassDiagram.cd" />
@@ -125,11 +123,8 @@
   <ItemGroup>
     <Text Include="..\..\..\AUTHORS" />
     <Text Include="..\..\..\CHANGELOG.md" />
-    <Text Include="..\..\..\lib\MechanicalBrain\LICENSE" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\lib\SQLite\shell.c" />
-    <ClCompile Include="..\..\..\lib\SQLite\sqlite3.c" />
     <ClCompile Include="..\..\main.cpp" />
     <ClCompile Include="..\Distribution.cpp" />
     <ClCompile Include="..\Instance.cpp" />
@@ -138,8 +133,6 @@
     <ClCompile Include="..\Module.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\lib\SQLite\sqlite3.h" />
-    <ClInclude Include="..\..\..\lib\SQLite\sqlite3ext.h" />
     <ClInclude Include="..\..\LabAware.h" />
     <ClInclude Include="..\..\Logger.h" />
     <ClInclude Include="..\Distribution.h" />

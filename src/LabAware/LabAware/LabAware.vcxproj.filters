@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="LabAware">
+      <UniqueIdentifier>{96c5ae16-664a-46b8-a517-00190553bc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LabAware\ModuleHandler">
+      <UniqueIdentifier>{1590a88a-a803-41f6-97c1-0c464c58fddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LabAware\Fichiers d%27en-tête">
+      <UniqueIdentifier>{cdc98993-1ae8-4b39-b554-2f9ea083f211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LabAware\ModuleHandler\Fichiers d%27en-tête">
+      <UniqueIdentifier>{92e10265-0932-4e8c-be94-0cf1db1eb0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LabAware\Fichiers sources">
+      <UniqueIdentifier>{c2fe01ea-12bb-4e7c-b95b-62e059f2b4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LabAware\ModuleHandler\Fichiers sources">
+      <UniqueIdentifier>{58e30c62-6dda-442d-99c0-78889670ce6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\.gitattributes" />
@@ -22,67 +40,52 @@
     <None Include="..\..\..\FEATURES.md" />
     <None Include="..\..\..\CONTRIBUTING.md" />
     <None Include="ClassDiagram.cd" />
-    <None Include="..\..\..\lib\MechanicalBrain\.gitignore" />
-    <None Include="..\..\..\lib\MechanicalBrain\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\AUTHORS" />
     <Text Include="..\..\..\CHANGELOG.md" />
-    <Text Include="..\..\..\lib\MechanicalBrain\LICENSE" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Module.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Instance.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\MemoryType.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Distribution.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\OperatorType.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\lib\SQLite\shell.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\lib\SQLite\sqlite3.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="..\Distribution.cpp">
+      <Filter>LabAware\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Instance.cpp">
+      <Filter>LabAware\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MemoryType.cpp">
+      <Filter>LabAware\ModuleHandler\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module.cpp">
+      <Filter>LabAware\ModuleHandler\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OperatorType.cpp">
+      <Filter>LabAware\ModuleHandler\Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Module.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Instance.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\MemoryType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Distribution.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\OperatorType.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\lib\SQLite\sqlite3.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\lib\SQLite\sqlite3ext.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Logger.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="..\..\LabAware.h">
       <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Distribution.h">
+      <Filter>LabAware\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Instance.h">
+      <Filter>LabAware\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OperatorType.h">
+      <Filter>LabAware\ModuleHandler\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MemoryType.h">
+      <Filter>LabAware\ModuleHandler\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Module.h">
+      <Filter>LabAware\ModuleHandler\Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
