@@ -6,6 +6,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.0] - 2017-09-12
+## [0.0.0] - 2017-09-12
 ### Added
 - Repository initial documentation and configuration

@@ -1,4 +1,4 @@
-![LabAware](https://github.com/BrainFarmers/LabAware/tree/master/resources/img/LabAware-logo.png)
+![LabAware](https://github.com/BrainFarmers/LabAware/blob/master/resources/img/LabAware-logo.png?raw=true)
 
 
 A Lab to Play God with Sentient Automatons

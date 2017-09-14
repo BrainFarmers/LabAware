@@ -128,17 +128,22 @@
     <Text Include="..\..\..\lib\MechanicalBrain\LICENSE" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\lib\SQLite\shell.c" />
+    <ClCompile Include="..\..\..\lib\SQLite\sqlite3.c" />
+    <ClCompile Include="..\..\main.cpp" />
     <ClCompile Include="..\Distribution.cpp" />
     <ClCompile Include="..\Instance.cpp" />
     <ClCompile Include="..\OperatorType.cpp" />
-    <ClCompile Include="..\main.cpp" />
     <ClCompile Include="..\MemoryType.cpp" />
     <ClCompile Include="..\Module.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\lib\SQLite\sqlite3.h" />
+    <ClInclude Include="..\..\..\lib\SQLite\sqlite3ext.h" />
+    <ClInclude Include="..\..\LabAware.h" />
+    <ClInclude Include="..\..\Logger.h" />
     <ClInclude Include="..\Distribution.h" />
     <ClInclude Include="..\Instance.h" />
-    <ClInclude Include="..\LabAware.h" />
     <ClInclude Include="..\OperatorType.h" />
     <ClInclude Include="..\MemoryType.h" />
     <ClInclude Include="..\Module.h" />
